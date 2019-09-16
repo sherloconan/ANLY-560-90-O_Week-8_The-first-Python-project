@@ -12,7 +12,7 @@ def days_in_month(year, month):
       The number of days in the input month.
     """
 
-    # check year is between 1 and 999
+    # check year is between 1 and 9999
     if year < datetime.MINYEAR or year > datetime.MAXYEAR or not isinstance(year, int):
         return 0
 
